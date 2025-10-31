@@ -63,7 +63,7 @@ def scrape_vehicle(rc: str):
     try:
         soup = fetch_html(rc)
     except Exception as e:
-        return {"error": f"❌ Unable to fetch data: {e}"}
+        return {"error": f"❌ Unable to fetch data: "}
 
     data = extract_all(soup)
     reg = soup.find("h1")
