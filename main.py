@@ -5,8 +5,8 @@ from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
 
 app = FastAPI(
-    title="NGYT777GG Vehicle Info API",
-    description="🚗 Vehicle Info Extractor by @NGYT777GG | Vercel Edition",
+    title="NGYT777GGG Vehicle Info API",
+    description="🚗 Vehicle Info Extractor by @NGYT777GGG | Vercel Edition",
     version="1.0"
 )
 
@@ -81,9 +81,9 @@ def scrape_vehicle(rc: str):
 @app.get("/")
 def home():
     return {
-        "message": "🚗 Welcome to NGYT777GG VEHICLE INFO API",
+        "message": "🚗 Welcome to NGYT777GGG VEHICLE INFO API",
         "usage": "/lookup?rc=MH12DE1433",
-        "author": "@NGYT777GG"
+        "author": "@NGYT777GGG"
     }
 
 
